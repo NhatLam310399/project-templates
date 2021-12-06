@@ -1,0 +1,20 @@
+.tags-input-wrapper {
+    div[class$="-control"] {
+        border: 1px solid $line-color;
+        border-radius: 0px;
+        box-shadow: none;
+
+        &:hover {
+            border-color: $secondary-color;
+        }
+
+        &:focus {
+            border-color: $secondary-color;
+        }
+
+        div[class$="-multiValue"] {
+            background-color: #c05299;
+            border-radius: 0px;
+        }
+    }
+}

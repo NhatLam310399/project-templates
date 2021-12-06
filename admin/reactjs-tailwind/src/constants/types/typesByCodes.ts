@@ -1,0 +1,4 @@
+export const PRODUCT_TYPE_CODE = "PRODUCT";
+export const DOCUMENT_TYPE_CODE = "DOCUMENT";
+export const STATIC_PAGE = "STATIC_PAGE";
+export const ADS_BY_IMAGE_LOCATION = "ADS_BY_IMAGE_LOCATION";

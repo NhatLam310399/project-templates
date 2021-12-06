@@ -1,0 +1,50 @@
+{
+    "image": "Hình ảnh",
+    "title": "Tiêu đề",
+    "category": "Danh mục",
+    "tags": "Tags",
+    "status": "Trạng thái",
+    "actions": "Hành động",
+    "title-delete-post": "Xóa bài đăng",
+    "content-delete-post": "Bạn có chắc muốn xoá bài đăng này?",
+    "title-delete-category": "Xóa danh mục",
+    "content-delete-category": "Bạn có chắc muốn xóa danh mục này?",
+    "title-delete-tags": "Xóa Tags",
+    "content-delete-tags": "Bạn có chắc muốn xoá thẻ này?",
+    "title-add-post": "Thêm bài đăng",
+    "title-edit-post": "Sửa bài đăng",
+    "title-add-tags": "Thêm Tags",
+    "title-edit-tags": "Sửa Tags",
+    "title-add-category": "Thêm danh mục",
+    "title-edit-category": "Sửa danh mục",
+    "active": "Hoạt động",
+    "pause": "Tạm ngưng",
+    "title-category": "Tên danh mục",
+    "title-tags": "Tên tag",
+    "create-at": "Ngày tạo",
+    "description": "Mô tả",
+    "content": "Nội dung",
+    "search": "Tìm kiếm theo tên",
+    "enter-title": "Nhập tiêu đề",
+    "enter-category": "Nhập tên danh mục",
+    "choose-category": "Chọn danh mục",
+    "blog-description": "Mô tả blog",
+    "enter-tag-name": "Nhập tên tag",
+    "tag-description": "Mô tả tag",
+    "error": {
+        "post": {
+            "title": "Vui lòng nhập tiêu đề !",
+            "category": "Vui lòng chọn tên danh mục !",
+            "description": "Vui lòng nhập mô tả !",
+            "tags": "Vui lòng chọn tags !",
+            "content": "Vui lòng nhập nội dung !"
+        },
+        "category": {
+            "title": "Vui lòng nhập tên danh mục !"
+        },
+        "tags": {
+            "title": "Vui lòng nhập tên tag !"
+        }
+    },
+    "enabled": "Tình trạng"
+}

@@ -1,0 +1,38 @@
+body {
+  font-family: $font-stack;
+}
+
+a:hover {
+  @include text-hover;
+}
+
+.select {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    border: 7px solid;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid transparent;
+  }
+}
+
+// Main layout
+.right-side-bar::-webkit-scrollbar {
+  display: none;
+}
+
+// Login layout
+.login-layout::-webkit-scrollbar {
+  display: none;
+}
+
+// Image list
+.image-list {
+  &::-webkit-scrollbar {
+    height: 10px;
+  }
+}

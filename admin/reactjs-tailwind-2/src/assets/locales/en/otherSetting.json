@@ -1,0 +1,43 @@
+{
+    "point": {
+        "post": "Posting point",
+        "rating": "Rating Score",
+        "view": "Review View Score",
+        "expired": "Expiration time for 1 post",
+        "default": "Default point at first",
+        "update": "Update",
+        "help": {
+            "post": "(Except when posting 1 message)",
+            "rating": "(Plus points when evaluating candidates)",
+            "view": "(Add and subtract NTD points when viewing evaluated candidates)",
+            "expired": "( Month )",
+            "default": "(The initial score when the employer creates an account)"
+        },
+        "placeholder": {
+            "post": "Enter post point!",
+            "rating": "Enter rating !",
+            "view": "Enter your review score!",
+            "expired": "Enter the expiry time of 1 post!",
+            "default": "Enter default score at first !"
+        }
+    },
+    "notification": {
+        "name": "Notification title",
+        "description": "Description of the message",
+        "create-at": "Date created",
+        "actions": "Actions",
+        "add-title": "Add message",
+        "edit-title": "Edit message",
+        "search": "Search by name",
+        "delete-title": "Delete notifications",
+        "delete-content": "Do you want to delete this message?",
+        "placeholder": {
+            "name": "Enter message title",
+            "description": "Enter a description of the message"
+        },
+        "error": {
+            "name": "Please enter message title !",
+            "description": "Please enter a description of the message!"
+        }
+    }
+}

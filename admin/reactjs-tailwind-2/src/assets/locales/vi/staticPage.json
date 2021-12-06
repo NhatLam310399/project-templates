@@ -1,0 +1,19 @@
+{
+    "image-title": "Ảnh",
+    "title": "Tên trang",
+    "content": "Nội dung trang",
+    "link": "Đường dẫn",
+    "type": "Định dạng",
+    "action": "Hành động",
+    "title-add": "Thêm trang tĩnh",
+    "title-edit": "Chỉnh sửa trang tĩnh",
+    "title-delete": "Xóa trang tĩnh",
+    "content-delete": "Bạn có chắc chắn muốn xoá trang tĩnh này ?",
+    "image": "Hình ảnh",
+    "null": {
+        "page": "Vui lòng nhập tên trang",
+        "link": "Vui lòng nhập tên đường dẫn / Nhập đúng định dạng đường dẫn",
+        "validate": "Vui lòng chọn định dạng",
+        "content": "Vui lòng nhập nội dung"
+    }
+}

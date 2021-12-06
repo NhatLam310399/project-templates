@@ -1,0 +1,40 @@
+{
+    "breadcrumb": "Cài đặt chung",
+    "address": "Địa chỉ liên hệ",
+    "email": "Email",
+    "phone_number": "Số điện thoại",
+    "white_logo": "Logo website (Trắng)",
+    "color_logo": "Logo website (Màu)",
+    "main_img": "Ảnh chia sẻ chính website",
+    "footer_user_1": "Thông tin chân trang người dùng (Nội dung 1)",
+    "footer_user_2": "Thông tin chân trang người dùng (Nội dung 2)",
+    "footer_user_3": "Thông tin chân trang người dùng (Nội dung 3)",
+    "footer_user_4": "Thông tin chân trang người dùng (Nội dung 4)",
+    "footer_employer_1": "Thông tin chân trang nhà tuyển dụng (Nội dung 1)",
+    "footer_employer_2": "Thông tin chân trang nhà tuyển dụng (Nội dung 2)",
+    "footer_employer_3": "Thông tin chân trang nhà tuyển dụng (Nội dung 3)",
+    "footer_employer_4": "Thông tin chân trang nhà tuyển dụng (Nội dung 4)",
+    "content": "Nội dung",
+    "custom_code_header": "Script Code Header",
+    "custom_code_footer": "Script Code Footer",
+    "null": {
+        "page": "Vui lòng nhập tên trang",
+        "code": "Vui lòng nhập code quảng cáo",
+        "ads-name": "Vui lòng nhập tên quảng cáo",
+        "link": "Vui lòng nhập tên đường dẫn / Nhập đúng định dạng đường dẫn",
+        "validate": "Vui lòng chọn định dạng",
+        "content": "Vui lòng nhập nội dung",
+        "select-position": "Vui lòng chọn vị trí quảng cáo"
+    },
+    "seo": {
+        "title": "Tiêu đề SEO",
+        "description": "Mô tả SEO",
+        "sitemap": "SEO Sitemap",
+        "keyword": "SEO Keyword",
+        "content-homepage": "Nội dung SEO chân trang chủ",
+        "content-recruit-news": "Nội dung SEO chân trang tin tuyển dụng",
+        "content-recruitment": "Nội dung SEO chân trang nhà tuyển dụng",
+        "required-title": "(Tối đa 70 ký tự)",
+        "required-des": "(Tối đa 140 ký tự)"
+    }
+}

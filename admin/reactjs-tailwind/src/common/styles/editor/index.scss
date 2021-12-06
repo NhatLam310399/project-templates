@@ -1,0 +1,71 @@
+@import "../base/variable.scss";
+
+.quill-wrap {
+  .quill {
+    border-radius: 4px;
+    background-color: $tertiary-color;
+    padding: 12px 17.5px;
+  }
+
+  .ql-toolbar.ql-snow {
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+
+    .ql-size {
+      width: auto;
+
+      > .ql-picker-label {
+        padding-right: 25px;
+      }
+    }
+  }
+
+  .ql-container.ql-snow {
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .ql-picker {
+    border-radius: 4px;
+  }
+
+  .ql-editor {
+    min-height: 150px;
+    max-height: 500px;
+    padding: 5px;
+  }
+  $fonts-quill: "SVN-Gilroy" "svn-gilroy";
+  $sizes: 14px 14, 16px 16, 18px 18, 22px 22;
+
+  @each $size, $sizeNumber in $sizes {
+    .ql-snow .ql-picker.ql-size .ql-picker-label[data-value="#{$size}"]::before,
+    .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="#{$size}"]::before {
+      content: "#{$sizeNumber}";
+      font-size: #{$size};
+    }
+  }
+
+  @each $font, $fontName in $fonts-quill {
+    .ql-snow
+      .ql-picker.ql-font
+      .ql-picker-label[data-value="#{$fontName}"]::before,
+    .ql-snow
+      .ql-picker.ql-font
+      .ql-picker-item[data-value="#{$fontName}"]::before {
+      content: "#{$font}";
+      font-family: $font;
+    }
+    .ql-font-#{$fontName} {
+      font-family: $font;
+    }
+  }
+}
+
+.react-toast-notifications__toast__icon {
+  margin-top: 10px;
+}

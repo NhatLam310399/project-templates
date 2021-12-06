@@ -1,0 +1,22 @@
+{
+    "dashboard": "Bảng điều khiển",
+    "name_breadcrumb": "Thông tin cá nhân",
+    "title": "Thông tin chung",
+    "name": "Họ và tên",
+    "address": "Địa chỉ",
+    "gender": "Giới tính",
+    "male": "Nam",
+    "female": "Nữ",
+    "date": "Ngày sinh",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "info_total": "Tổng số trận đấu",
+    "info_ratio": "Tỉ lệ thắng thi đấu",
+    "info_number_football": "Số trận môn bóng đá",
+    "info_number_badminton": "Số trận môn cầu lông",
+    "info_number_tennis": "Số trận môn tennis",
+    "info_number_table_tennis": "Số trận môn bóng bàn",
+    "info_number_basketball": "Số trận môn bóng rổ",
+    "info_number_volleyball": "Số trận môn bóng chuyền",
+    "title_submit": "Lưu thông tin"
+}

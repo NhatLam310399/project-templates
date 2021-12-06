@@ -1,0 +1,6 @@
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const REMOVE_CURRENT_USER = "REMOVE_CURRENT_USER";
+
+export const GET_TOKEN = "GET_TOKEN";
+export const REFRESH_TOKEN = "REFRESH_TOKEN";
+export const GET_TOKEN_SUCCESS = "GET_TOKEN_SUCCESS";

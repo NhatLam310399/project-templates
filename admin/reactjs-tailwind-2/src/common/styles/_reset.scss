@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+html,
+body {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body {
+    #root {
+        width: 100%;
+        @apply bg-white;
+        @apply text-black;
+        @apply font-sfpro;
+    }
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    outline: none;
+    border: none;
+
+    // Remove Arrows/Spinners
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    /* Firefox */
+    &[type="number"] {
+        -moz-appearance: textfield;
+    }
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    resize: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    &:active,
+    &:focus {
+        outline: none;
+    }
+}
+
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+}

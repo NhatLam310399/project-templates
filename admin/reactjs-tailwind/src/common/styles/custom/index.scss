@@ -1,0 +1,29 @@
+body {
+  font-family: $font-stack;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  @include text-hover;
+}
+
+.MuiFormHelperText-root {
+  color: $error-color !important;
+}
+
+.text-gray {
+  color: $body-color !important;
+}
+
+.border-line {
+  color: $line-color !important;
+}
+.MuiDialogTitle-root {
+  padding: 16px;
+}
+
+p.MuiFormHelperText-root.Mui-error {
+  display: none;
+}

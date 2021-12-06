@@ -1,0 +1,32 @@
+{
+  "home-title": "Người tìm việc",
+  "best-job": "Việc làm tốt nhất",
+  "career-counseling": "Tư vấn nghề nghiệp",
+  "employer": {
+    "featured-employer": "Nhà tuyển dụng nổi bật",
+    "apply": "Ứng tuyển"
+  },
+  "newest-job": "Việc làm mới nhất",
+  "blog": {
+    "read-more": "Bài đọc thêm"
+  },
+  "help": {
+    "what-we-can-help": "Tuyển Dụng VN Có Thể Giúp Gì",
+    "introduction-personal-job": {
+      "title": "Giới thiệu công việc cá nhân",
+      "content": "Sử dụng quy trình tìm kiếm việc làm hiện đại của chúng tôi, chúng tôi có thể giới thiệu cho bạn các công việc dựa trên các tìm kiếm, ứng dụng trước đó và CV và lịch sử việc làm của bạn, giúp việc tìm kiếm vai trò hoàn hảo của bạn trở nên dễ dàng."
+    },
+    "quick-register": {
+      "title": "Đăng ký nhanh",
+      "content": "Dễ dàng ứng tuyển vào nhiều công việc chỉ với một cú nhấp chuột! Ứng tuyển nhanh hiển thị cho bạn các công việc được đề xuất dựa trên tìm kiếm gần đây nhất của bạn và cho phép bạn nộp đơn vào công việc chỉ trong vài giây!"
+    },
+    "searching-while-moving": {
+      "title": "Tìm kiếm khi đang di chuyển",
+      "content": "Giờ đây, bạn có thể dễ dàng tìm kiếm việc làm. Bạn có thể nhanh chóng nộp đơn xin việc, lập sơ yếu lý lịch và hơn thế nữa từ điện thoại và máy tính của mình. "
+    }
+  },
+  "job-suggestion": "Việc làm gợi ý",
+  "top-company": "Công ty hàng đầu",
+  "banner-title": "Tìm kiếm công việc mơ ước"
+ 
+}

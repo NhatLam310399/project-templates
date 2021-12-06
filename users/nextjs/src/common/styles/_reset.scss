@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  min-height: 100vh;
+  box-sizing: border-box;
+
+  font-size: 62.5%; // 1rem = 10px
+
+  @media (max-width: 1024px) {
+    font-size: 56.25%; // 9px
+  }
+
+  @media (max-width: 768px) {
+    font-size: 50%; // 8px
+  }
+
+  @media (max-width: 640px) {
+    font-size: 43.75%; // 7pxs
+  }
+}
+
+body {
+  @apply bg-white font-medium text-16 text-black;
+  font-family: "SF-Pro-Text", arial, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  #root {
+    width: 100%;
+  }
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: none;
+  border: none;
+
+  // Remove Arrows/Spinners
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* Firefox */
+  &[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  resize: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+}
+
+.menuList {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+}

@@ -1,0 +1,50 @@
+{
+  "total": "việc làm phù hợp",
+  "sort": {
+    "self": "Sắp xếp theo",
+    "default": "Mặc định",
+    "low-salary": "Lương ( thấp đến cao )",
+    "latest": "Theo ngày đăng ( mới nhất )",
+    "oldest": "Theo ngày đăng ( cũ nhất )"
+  },
+  "login-to-see": "Đăng nhập để xem lương",
+  "title": {
+    "job": "Việc làm ",
+    "type": " $type",
+    "career": " ngành $career",
+    "with-price": " với mức lương $price",
+    "for-level": " cho cấp bậc $level",
+    "location": " tại $location",
+    "with-keyword": ". Với từ khoá \"$keyword\""
+  },
+  "updated-has-number": "Cập nhật: $update ngày trước ",
+  "expired-has-number": " Bạn còn $date ngày để ứng tuyển",
+  "updated-today": "Cập nhật: Hôm nay ",
+  "expired": " Hết hạn ứng tuyển",
+  "filter": {
+    "all-career": "Tất cả ngành nghề",
+    "all-level": "Tất cả cấp bậc",
+    "all-level-price": "Tất cả mức lương",
+    "all-type": "Tất cả loại hình",
+    "all-location": "Tất cả địa điểm"
+  },
+  "location": "Địa Điểm Làm Việc",
+  "salary": "Mức lương",
+  "applied": "Đã ứng tuyển",
+  "apply": "Ứng tuyển",
+  "save-job": "Lưu việc làm",
+  "saved-job": "Đã lưu",
+  "benefits": "CÁC PHÚC LỢI BẠN NHẬN ĐƯỢC",
+  "description": "MÔ TẢ CÔNG VIỆC",
+  "requirement": "YÊU CẦU CÔNG VIỆC",
+  "tags": "Thẻ tag",
+  "related-job": "Các công việc liên quan từ nhà tuyển dụng",
+  "date": "Ngày đăng tuyển",
+  "level": "Cấp bậc",
+  "career": "Ngành nghề",
+  "today": "Hôm nay",
+  "previous": "$update ngày trước",
+  "login-to-apply": "Đăng nhập để ứng tuyển",
+  "unit": "triệu đồng",
+  "deal-salary": "Mức lương thỏa thuận"
+}

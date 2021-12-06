@@ -1,0 +1,19 @@
+{
+    "image-title": "Image",
+    "title": "Page name",
+    "content": "Page content",
+    "link": "Path",
+    "type": "Format",
+    "action": "Action",
+    "title-add": "Add static page",
+    "title-edit": "Edit static pages",
+    "title-delete": "Delete static page",
+    "content-delete": "Are you sure you want to delete this static page?",
+    "image": "Image",
+    "null": {
+        "page": "Please enter a page name",
+        "link": "Please enter the path name / Enter the correct path format",
+        "validate": "Please select a format",
+        "content": "Please enter content"
+    }
+}

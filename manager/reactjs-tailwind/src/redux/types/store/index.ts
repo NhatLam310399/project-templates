@@ -1,0 +1,2 @@
+export const NEXT_STEP_STORE = "NEXT_STEP_STORE";
+export const DEFAULT_STEP_STORE = "DEFAULT_STEP_STORE";

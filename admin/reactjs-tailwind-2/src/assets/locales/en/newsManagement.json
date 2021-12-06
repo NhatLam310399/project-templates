@@ -1,0 +1,15 @@
+{
+    "add": "Add",
+    "config_by_code": "Configure by code",
+    "name": "Name of job posting",
+    "type": "Type of message",
+    "author": "Poster",
+    "date": "Posting date",
+    "action": "Action",
+    "search": "Search",
+    "content-delete": "Do you want to delete the post",
+    "title-delete": "Delete job postings",
+    "note-delete": "Note: Information cannot be recovered after deletion",
+    "title-add": "Add job posting",
+    "title-edit": "Edit job postings"
+}

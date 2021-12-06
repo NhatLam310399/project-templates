@@ -1,0 +1,101 @@
+.MuiButton-root {
+  font-family: $font-stack !important;
+}
+
+.MuiFormHelperText-contained {
+  margin-left: 0px !important;
+}
+
+.MuiFormHelperText-root {
+  margin-left: 0px !important;
+  color: $error-color !important;
+}
+
+//input
+.input-custom {
+  input {
+    padding: 0 10px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+//text area
+.text-validator-wrapper {
+  textarea {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+// select
+.select-custom {
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 0;
+  }
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]
+    .MuiAutocomplete-input {
+    padding: 0;
+  }
+  .MuiOutlinedInput-input {
+    padding: 0 10px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+// multi select
+.multiSelect-custom {
+  .MuiFormControl-root {
+    .MuiInputBase-root {
+      .MuiOutlinedInput-input {
+        padding: 1px;
+      }
+    }
+  }
+}
+
+// date picker
+.date-picker-wrapper {
+  .MuiInputLabel-outlined {
+    transform: translate(14px, 17px) scale(1);
+  }
+  .MuiOutlinedInput-input {
+    height: 48px;
+    padding: 0 10px;
+  }
+}
+
+// search box
+.search-input {
+  p {
+    display: none;
+  }
+  input {
+    padding: 11px 40px;
+    &::placeholder {
+      color: #22468a;
+    }
+  }
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #102b5c;
+  }
+}
+
+// pagination
+.pagination-wrap {
+  .MuiPaginationItem-page {
+    color: var(--primary);
+    font-weight: medium;
+    background-color: var(--tertiary);
+    line-height: 1;
+    &.Mui-selected {
+      background-color: #102b5c6b;
+      color: #102b5c;
+    }
+  }
+}

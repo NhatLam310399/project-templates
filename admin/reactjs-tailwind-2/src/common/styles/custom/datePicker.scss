@@ -1,0 +1,16 @@
+.date-picker-wrapper {
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border: 1px solid $secondary-color;
+    }
+    .MuiInputBase-input {
+        font-size: 14px;
+        color: $body-color;
+    }
+    fieldset {
+        border: 1px solid #e0e0e0;
+        border-radius: 0px;
+        legend {
+            width: 0px;
+        }
+    }
+}

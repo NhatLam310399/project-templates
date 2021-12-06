@@ -1,0 +1,46 @@
+{
+    "point": {
+        "post": "Điểm đăng tin",
+        "rating": "Điểm đánh giá",
+        "view": "Điểm xem đánh giá",
+        "expired": "Thời gian hết hạn 1 tin đăng",
+        "default": "Điểm mặc định lúc đầu",
+        "update": "Cập nhật",
+        "help": {
+            "post": "( Trừ ra khi đăng 1 tin )",
+            "rating": "( Điểm cộng khi đánh giá ứng viên )",
+            "view": "( Cộng trừ điểm NTD khi xem ứng viên được đánh giá )",
+            "expired": "( Tháng )",
+            "default": "( Điểm lúc đầu khi nhà tuyển dụng tạo tài khoản )"
+        },
+        "placeholder": {
+            "post": "Nhập điểm đăng tin !",
+            "rating": "Nhập điểm đánh giá !",
+            "view": "Nhập điểm xem đánh giá !",
+            "expired": "Nhập thời gian hết hạn 1 tin đăng !",
+            "default": "Nhập điểm mặc định lúc đầu !"
+        }
+    },
+    "notification": {
+        "name": "Tiêu đề thông báo",
+        "description": "Mô tả thông báo",
+        "permission": "Loại thành viên",
+        "create-at": "Ngày tạo",
+        "actions": "Hành động",
+        "add-title": "Thêm thông báo",
+        "edit-title": "Sửa thông báo",
+        "search": "Tìm kiếm theo tên ",
+        "delete-title": "Xóa thông báo",
+        "delete-content": "Bạn có muốn xóa thông báo này?",
+        "placeholder": {
+            "name": "Nhập tiêu đề thông báo",
+            "description": "Nhập nội dung mô tả thông báo",
+            "permission": "Chọn loại thành viên nhận thông báo "
+        },
+        "error": {
+            "name": "Vui lòng nhập tiêu đề thông báo !",
+            "description": "Vui lòng nhập nội dung mô tả thông báo !",
+            "permission": "Vui lòng chọn loại thành viên !"
+        }
+    }
+}

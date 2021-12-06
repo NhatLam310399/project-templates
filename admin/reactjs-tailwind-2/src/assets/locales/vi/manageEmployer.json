@@ -1,0 +1,69 @@
+{
+    "owner-name": "Họ tên người sở hữu",
+    "company-name": "Tên công ty",
+    "phone-number": "Số điện thoại",
+    "email": "Email",
+    "add-employer": "Thêm nhà tuyển dụng",
+    "search": "Tìm kiếm theo tên ",
+    "delete-title": "Xóa nhà tuyển dụng",
+    "delete-content": "Bạn có muốn xóa công ty này?",
+    "account": {
+        "title": "Thông tin tài khoản",
+        "full-name": "Họ và tên",
+        "phone-number": "Số điện thoại nhà tuyển dụng ",
+        "email": "Email",
+        "password": "Mật khẩu"
+    },
+    "company": {
+        "title": "Thông tin công ty",
+        "name": "Tên công ty",
+        "phone-number": "Số điện thoại công ty ",
+        "code": "Mã số công ty",
+        "contact-name": "Người liên hệ",
+        "size": "Quy mô công ty",
+        "logo": "Logo công ty",
+        "image": "Hình ảnh công ty",
+        "video": "Link video công ty",
+        "career": "Ngành nghề, tối đa 3 ngành nghề",
+        "location": "Địa chỉ công ty",
+        "benefit": "Phúc lợi",
+        "add-benefit": "Thêm phúc lợi",
+        "description": "Mô tả công ty",
+        "is-auth": "Xác thực công ty",
+        "highlight": "Nổi bật",
+        "not-highlight": "Chưa nổi bật"
+    },
+    "cancel": "Hủy bỏ",
+    "next": "Tiếp tục",
+    "done": "Hoàn tất",
+    "placeholder": {
+        "phone-number": "Nhập số điện thoại",
+        "email": "Nhập email",
+        "password": "Nhập mật khẩu",
+        "name": "Nhập tên công ty",
+        "phone-number-company": "Nhập số điện thoại công ty ",
+        "code": "Nhập mã số công ty",
+        "contact-name": "Nhập người liên hệ",
+        "size": "Chọn quy mô công ty",
+        "video": "/url",
+        "location": "Địa chỉ công ty",
+        "benefit": "Ví dụ: Đăng ký bảo hiểm xã hội",
+        "description": "Mô tả thông tin về công ty"
+    },
+    "icon": "Icon",
+    "error": {
+        "account": {
+            "name": "Vui lòng nhập họ và tên !",
+            "phone-number": "Vui lòng nhập số điện thoại !",
+            "email": "Vui lòng nhập địa chỉ email ! / Nhập đúng định dạng địa chỉ email !",
+            "password": "Vui lòng nhập mật khẩu !"
+        },
+        "company": {
+            "name": "Vui lòng nhập tên công ty !",
+            "phone-number": "Vui lòng nhập số điện thoại công ty !",
+            "benefit": "Vui lòng thêm phúc lợi công ty !",
+            "description": "Vui lòng nhập nội dung mô tả công ty !",
+            "selected-limit": "Bạn chỉ được chọn tối đa 3 ngành nghề"
+        }
+    }
+}

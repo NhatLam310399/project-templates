@@ -1,0 +1,40 @@
+{
+    "breadcrumbs": "General settings",
+    "address": "Contact address",
+    "email": "Email",
+    "phone_number": "Phone number",
+    "white_logo": "Website logo (White)",
+    "color_logo": "Website logo (Color)",
+    "main_img": "The main website share image",
+    "footer_user_1": "User footer information (Content 1)",
+    "footer_user_2": "User footer information (Content 2)",
+    "footer_user_3": "User footer information (Content 3)",
+    "footer_user_4": "User footer information (Content 4)",
+    "footer_employer_1": "Employer footer information (Content 1)",
+    "footer_employer_2": "Employer footer information (Content 2)",
+    "footer_employer_3": "Employer footer information (Content 3)",
+    "footer_employer_4": "Employer footer information (Content 4)",
+    "content": "Content",
+    "custom_code_header": "Custom code (Header)",
+    "custom_code_footer": "Custom code (Footer)",
+    "null": {
+        "page": "Please enter a page name",
+        "code": "Please enter ad code",
+        "ads-name": "Please enter an ad name",
+        "link": "Please enter the path name / Enter the correct path format",
+        "validate": "Please select a format",
+        "content": "Please enter content",
+        "select-position": "Please select an ad position"
+    },
+    "seo": {
+        "title": "SEO title",
+        "description": "SEO description",
+        "sitemap": "SEO Sitemap",
+        "keyword": "SEO Keyword",
+        "content-homepage": "SEO content homepage footer",
+        "content-recruit-news": "SEO content for job posting footer",
+        "content-recruitment": "Employer footer SEO content",
+        "required-title": "(Up to 70 characters)",
+        "required-des": "(Up to 140 characters)"
+    }
+}

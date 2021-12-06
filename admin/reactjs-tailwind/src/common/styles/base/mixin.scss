@@ -1,0 +1,7 @@
+@mixin button-zoom-hover {
+  transform: scale(1.015);
+  transition: transform 0.2s;
+}
+@mixin text-hover {
+  color: $secondary-color;
+}

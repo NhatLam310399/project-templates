@@ -1,0 +1,15 @@
+{
+    "add": "Thêm",
+    "config_by_code": "Cấu hình bằng code",
+    "name": "Tên tin tuyển",
+    "type": "Loại tin",
+    "author": "Người đăng",
+    "date": "Ngày đăng",
+    "action": "Hành động",
+    "search": "Tìm kiếm",
+    "content-delete": "Bạn có muốn xóa tin đăng",
+    "title-delete": "Xóa tin đăng tìm việc",
+    "note-delete": "Lưu ý: Thông tin sẽ không thể khôi phục sau khi xóa",
+    "title-add": "Thêm tin đăng tìm việc",
+    "title-edit": "Chỉnh sửa tin đăng tìm việc"
+}

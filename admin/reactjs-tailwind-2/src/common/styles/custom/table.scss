@@ -1,0 +1,82 @@
+.custom-table {
+    &__container {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        table {
+            table-layout: auto;
+            @apply text-sm border border-solid border-gray;
+            line-height: 1.2;
+            text-align: left;
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0px 0px;
+        }
+
+        th {
+            font-weight: 500;
+            padding: 15.5px 20px;
+            vertical-align: top;
+            white-space: nowrap;
+            @apply bg-white text-lg border-b border-solid border-gray;
+            color: #0d0229;
+            & + th {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                text-align: right;
+                min-width: 100px;
+                white-space: nowrap;
+                margin-right: 0;
+                margin-left: auto;
+                width: 11.32%;
+            }
+        }
+
+        tr {
+            &:first-child {
+                td {
+                    padding-top: 15px;
+                }
+            }
+            &:last-child {
+                td {
+                    padding-bottom: 15px;
+                }
+            }
+        }
+
+        td {
+            vertical-align: middle;
+            padding: 10px 20px;
+            font-weight: 400;
+            @apply bg-white text-md rounded-md;
+
+            &:last-child {
+                margin-right: 0;
+                margin-left: auto;
+                width: 11.32%;
+            }
+
+            & + td {
+                padding-left: 0;
+            }
+        }
+
+        .pagination-wrap {
+            .MuiPaginationItem-root {
+                border-radius: 4px;
+            }
+            .MuiPaginationItem-page {
+                @apply text-primary bg-tertiary;
+                font-weight: medium;
+                line-height: 1;
+                &.Mui-selected {
+                    @apply bg-primary;
+                    color: $white-color;
+                }
+            }
+        }
+    }
+}

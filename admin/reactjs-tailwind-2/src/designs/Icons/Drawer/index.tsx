@@ -1,0 +1,12 @@
+export { ReactComponent as Blog } from "assets/svg/drawer/blog.svg";
+export { ReactComponent as Company } from "assets/svg/drawer/company.svg";
+export { ReactComponent as Evaluate } from "assets/svg/drawer/evaluate.svg";
+export { ReactComponent as Job } from "assets/svg/drawer/job.svg";
+export { ReactComponent as Location } from "assets/svg/drawer/location.svg";
+export { ReactComponent as ManageUser } from "assets/svg/drawer/manage-user.svg";
+export { ReactComponent as Overview } from "assets/svg/drawer/overview.svg";
+export { ReactComponent as NewsConfig } from "assets/svg/drawer/news-config.svg";
+export { ReactComponent as SystemSetting } from "assets/svg/drawer/system-setting.svg";
+export { ReactComponent as Statistic } from "assets/svg/drawer/statistic.svg";
+export { ReactComponent as Contact } from "assets/svg/drawer/contact.svg";
+export { ReactComponent as OtherSetting } from "assets/svg/drawer/other-setting.svg";

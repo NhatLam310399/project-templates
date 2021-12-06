@@ -1,0 +1,13 @@
+{
+    "full-name": "Họ và tên",
+    "email": "Email",
+    "title": "Tiêu đề",
+    "action": "Hành động",
+    "title-view": "Thông tin liên hệ",
+    "content": "Nội dung",
+    "close": "Đóng",
+    "delete-title": "Xóa liên hệ",
+    "delete-content": "Bạn có muốn xóa thông tin liên hệ này?",
+    "cancel": "Hủy bỏ",
+    "submit": "Đồng ý"
+}

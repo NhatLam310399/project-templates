@@ -1,0 +1,12 @@
+.otp-container {
+  @apply flex justify-center space-x-1 phone:space-x-2;
+  & .otp-input {
+    @apply outline-body h-4 phone:h-7 min-w-3 phone:min-w-4.5 text-16 phone:text-18 text-black;
+  }
+  & .otp-focus {
+    @apply outline-primary;
+  }
+  & .otp-error {
+    @apply outline-error;
+  }
+}

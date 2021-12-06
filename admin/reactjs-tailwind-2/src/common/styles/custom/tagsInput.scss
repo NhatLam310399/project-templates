@@ -1,0 +1,47 @@
+.tags-input-wrapper {
+    background: $white-color;
+
+    .react-tagsinput {
+        display: flex;
+        align-items: center;
+        min-height: 50px;
+        padding: 9px 14px;
+        background: transparent;
+        border: 1px solid$line-color;
+        &:hover {
+            border-color: $body-color;
+        }
+    }
+
+    .react-tagsinput-tag {
+        border-radius: 0px;
+        flex: 0 0 auto;
+        display: block;
+        margin: 0;
+        max-width: 100%;
+        word-break: break-all;
+        padding: 5px;
+        background-color: $secondary-color;
+        color: $white-color;
+        border: none;
+        font-family: $font-stack;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 1.2;
+    }
+
+    .react-tagsinput-input {
+        width: fit-content;
+        min-width: 100px;
+        flex: 1;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        line-height: 1;
+        color: #0d0229;
+        font-family: $font-stack;
+        &::placeholder {
+            color: $body-color;
+        }
+    }
+}

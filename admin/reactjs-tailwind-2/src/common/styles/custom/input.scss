@@ -1,0 +1,34 @@
+.text-validator-wrapper {
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border: 1px solid $secondary-color;
+    }
+    .MuiInputBase-input {
+        font-size: 14px;
+        color: $body-color;
+    }
+    .MuiFormHelperText-root.Mui-error {
+        font-size: 13px;
+    }
+    fieldset {
+        border: 1px solid #e0e0e0;
+        border-radius: 0px;
+        legend {
+            width: 0px;
+        }
+    }
+}
+
+.MuiFormHelperText-root {
+    &.Mui-error {
+        font-size: 16px;
+        margin: 10px 0 0 0;
+        line-height: 1;
+    }
+}
+
+.MuiInputBase-formControl {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: $font-stack;
+    color: red;
+}

@@ -1,0 +1,101 @@
+{
+  "header": {
+    "register": "Đăng ký",
+    "login": "Đăng nhập",
+    "confirm": "Xác nhận",
+    "job-seeker": "Người tìm việc",
+    "employer": "Nhà tuyển dụng",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "job": "Việc làm",
+    "company": "Công ty",
+    "logout": "Đăng xuất",
+    "signin-notification": "Bạn chưa đăng nhập. Vui lòng đăng nhập để tiếp tục",
+    "personal-information": "Thông tin cá nhân",
+    "company-information": "Thông tin công ty",
+    "request-evaluted": "Yêu cầu đã được đánh giá",
+    "applied-job": "Việc làm đã lưu, ứng tuyển",
+    "employer-review": "Nhà tuyển dụng xem hồ sơ",
+    "my-job" : "Công việc của tôi",
+    "change-password": "Thay đổi mật khẩu",
+    "career-notification": "THÔNG BÁO VIỆC LÀM",
+    "login-notification": "Vui lòng đăng nhập để xem thông báo",
+    "collapse": "Thu gọn",
+    "extend": "Xem thêm",
+    "post-recruitment-news": "Đăng tuyển dụng",
+    "find-candidate": "Tìm ứng viên",
+    "notification": "Thông báo",
+    "employer-page": "Trang cho nhà tuyển dụng",
+    "empty-notify":"Bạn chưa có thông báo mới !",
+    "admin": "Quản trị viên"
+  },
+  "employer-drawer": {
+    "account-setting": "Thiết lập tài khoản",
+    "account-information": "Thông tin tài khoản",
+    "company-information": "Thông tin công ty",
+    "change-password": "Đổi mật khẩu",
+    "recruitment": "Tuyển dụng",
+    "candidate": "Ứng viên"
+  },
+  "notification": {
+    "create-success": "Tạo thành công",
+    "update-success": "Cập nhật thành công",
+    "delete-success": "Xóa thành công",
+    "update-failed": "Cập nhật không thành công",
+    "update-password-success": "Cập nhật mật khẩu thành công",
+    "update-password-failed": "Cập nhật mật khẩu không thành công",
+    "password-not-match": "Mật khẩu bạn nhập không khớp với nhau"
+  },
+  "password": {
+    "old-password": "Mật khẩu cũ",
+    "new-password": "Mật khẩu mới",
+    "re-enter-newpassword": "Nhập lại mật khẩu mới",
+    "required": "Vui lòng nhập đầy đủ thông tin"
+  },
+  "dialog": {
+    "cancel": "Hủy bỏ",
+    "confirm": "Đồng ý",
+    "create": "Tạo",
+    "save": "Lưu",
+    "back": "Quay về"
+  },
+  "gender": {
+    "male": "Nam",
+    "female": "Nữ"
+  },
+  "search-box": {
+    "search": "Tìm kiếm",
+    "place-holder": "Tên công việc, từ khóa",
+    "recent-search": "Tìm kiếm gần đây",
+    "common-keyword": "Từ khóa phổ biến",
+    "empty-data": "Chưa có dữ liệu"
+  },
+  "search-placeholder": "Tên công việc, từ khóa hoặc công ty",
+  "search-company-placeholder": "Tên công ty, từ khóa hoặc ngành nghề",
+  "see-more": "Xem thêm",
+  "required": "Không được để trống trường này",
+  "email-invalid": "Địa chỉ email bạn nhập không hợp lệ",
+  "limit-character": "Bạn đã nhập quá giới hạn ký tự quy định",
+  "send": "Gửi",
+  "update": "Cập nhật",
+  "verified": "Đã xác nhận",
+  "drop-image": "Kéo thả ảnh vào đây hoặc Chọn file (Tập tin với phần mở rộng .jpg .jpeg .png .gif và kích thước <1MB)",
+  "selected-limit": "Bạn chỉ được chọn tối đa",
+  "careers": "Ngành nghề",
+  "bottom-footer" : "© 2021  - Bản quyền thuộc TuyendungVN.com.",
+  "edit": "Chỉnh sửa",
+  "delete": "Xóa",
+  "apply" : "Ứng tuyển",
+  "applied" : "Đã ứng tuyển",
+  "url-invalid": "Đường dẫn bạn nhập không hợp lệ",
+  "add-more-work-location": "Thêm địa điểm làm việc",
+  "alert-not-found-title": "Không có công việc nào phù hợp với nhu cầu của bạn",
+  "alert-not-found-company-title": "Không có công ty phù hợp với tiêu chí tìm kiếm",
+  "filter-all-location": "Tất cả địa điểm",
+  "VND-sign": {
+    "UNITS": "Đồng",
+    "THOUSANDS": "Ngàn",
+    "MILLIONS": "Triệu đồng",
+    "BILLIONS": "Tỷ"
+  }
+}

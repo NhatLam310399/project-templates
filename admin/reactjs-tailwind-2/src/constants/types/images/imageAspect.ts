@@ -1,0 +1,1 @@
+export const BACKGROUND_IMAGE_ASPECT = 16 / 9;

@@ -1,0 +1,40 @@
+export const INIT_CANVAS = "INIT_CANVAS";
+// Background
+export const SET_HEATHER_BACKGROUND = "SET_HEATHER_BACKGROUND";
+export const SET_UPPER_BACKGROUND = "SET_UPPER_BACKGROUND";
+export const SET_LIST_COLORS = "SET_LIST_COLORS";
+
+// Clip path
+export const SET_CLIP_PATH = "SET_CLIP_PATH";
+
+// Image
+export const ADD_IMAGE = "ADD_IMAGE";
+export const ADD_VECTOR = "ADD_VECTOR";
+export const SET_KEY_YOUR_IMAGE = "SET_KEY_YOUR_IMAGE";
+
+export const ADD_OBJECT = "ADD_OBJECT";
+
+// Text
+export const ADD_TEXT = "ADD_TEXT";
+
+export const CHANGE_LAYER = "CHANGE_LAYER";
+
+// Actions
+export const UPDATE_EDITOR = "UPDATE_EDITOR";
+export const SORT_OBJECTS = "SORT_OBJECTS";
+export const DUPLICATE_CURRENT_ACTIVE_OBJECT =
+  "DUPLICATE_CURRENT_ACTIVE_OBJECT";
+export const SET_CURRENT_ACTIVE_OBJECT_ID = "SET_CURRENT_ACTIVE_OBJECT_ID";
+export const SET_ACTIVE_OBJECT_HAS_ID = "SET_ACTIVE_OBJECT_HAS_ID";
+export const REMOVE_OBJECT_HAS_ID = "REMOVE_OBJECT_HAS_ID";
+export const LOCK_OBJECT_HAS_ID = "LOCK_OBJECT_HAS_ID";
+export const UNLOCK_OBJECT_HAS_ID = "UNLOCK_OBJECT_HAS_ID";
+export const OVERWRITE_ALL_OBJECT_Z_INDEX = "OVERWRITE_ALL_OBJECT_Z_INDEX";
+
+export const HIDE_OBJECT_HAS_ID = "HIDE_OBJECT_HAS_ID";
+export const UNHIDE_OBJECT_HAS_ID = "UNHIDE_OBJECT_HAS_ID";
+
+export const UNDO = "UNDO";
+export const REDO = "REDO";
+
+export const RESET_ALL = "RESET_ALL";

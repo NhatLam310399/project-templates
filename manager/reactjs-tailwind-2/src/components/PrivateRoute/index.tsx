@@ -1,0 +1,34 @@
+import { Redirect, Route } from "react-router-dom";
+import { IRoute } from "common/typings";
+import { isAuthenticated } from "common/utils/auth";
+import Meta from "components/Meta";
+import ErrorBoundary from "components/ErrorBoundary";
+import { PATH } from "constants/routes";
+
+export default function PrivateRoute(props: IRoute): JSX.Element {
+  const { Component, ...rest } = props;
+
+  return (
+    <Route
+      {...rest}
+      render={props => {
+        if (!isAuthenticated()) {
+          return (
+            <Redirect
+              to={{
+                pathname: PATH.ACCOUNT.LOGIN,
+                state: { from: props.location },
+              }}
+            />
+          );
+        }
+        return (
+          <ErrorBoundary>
+            <Meta title={rest.name} />
+            <Component {...props} />
+          </ErrorBoundary>
+        );
+      }}
+    />
+  );
+}

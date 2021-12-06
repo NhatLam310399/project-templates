@@ -1,0 +1,23 @@
+{
+  "recruiting": "Các công ty đang tuyển dụng",
+  "top-view": "Các công ty có lượt xem nhiều nhất",
+  "top-applied": "Các công ty có lượt ứng tuyển nhiều nhất",
+  "newest": "Các công ty mới tham gia",
+  "required-rating-title": "Yêu cầu đánh giá",
+  "required-rating-content": "Bạn có muốn yêu cầu được đánh giả bởi : $companyName không ?",
+  "login-to-rating": "Vui lòng đăng nhập để tiếp tục yêu cầu đánh giá bởi nhà tuyển dụng",
+  "opportunity": "Cơ hội việc làm cho bạn",
+  "address": "Địa chỉ văn phòng",
+  "about-us": "Về chúng tôi",
+  "images": "Hình ảnh công ty",
+  "benefits": "Lợi ích của chúng tôi",
+  "found": "công ty được tìm thấy",
+  "company-title": "Tất cả công ty tuyển dụng việc làm nhanh, mới nhất",
+  "apply": "Ứng tuyển",
+  "applied": "Đã ứng tuyển",
+  "company-result": "Kết quả được tìm thấy",
+  "cancel": "Hủy bỏ",
+  "accept": "Đồng ý",
+  "requested": "Đã yêu cầu",
+  "no-login":"Vui lòng đăng nhập để tiếp tục yêu cầu đánh giá bởi nhà tuyển dụng"
+}

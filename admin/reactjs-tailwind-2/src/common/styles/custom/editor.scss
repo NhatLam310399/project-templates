@@ -1,0 +1,66 @@
+.quill-wrap {
+    .quill {
+        background-color: $white-color;
+        border-radius: 4px;
+        border: solid 1px $line-color;
+    }
+
+    .ql-toolbar.ql-snow {
+        border: none;
+        border-bottom: solid 1px$line-color;
+        padding: 15px;
+        background-color: $white-color;
+    }
+
+    .ql-container.ql-snow {
+        border: none;
+        padding: 15px;
+    }
+
+    .ql-picker {
+        border-radius: 4px;
+    }
+
+    .ql-editor {
+        min-height: 150px;
+        max-height: 500px;
+        padding: 5px;
+        background-color: $white-color;
+        border-radius: 4px;
+    }
+
+    .ql-snow .ql-picker.ql-size {
+        width: 60px;
+    }
+
+    $sizes: 14px 14, 16px 16, 18px 18, 22px 22;
+
+    @each $size, $sizeNumber in $sizes {
+        .ql-snow
+            .ql-picker.ql-size
+            .ql-picker-label[data-value="#{$size}"]::before,
+        .ql-snow
+            .ql-picker.ql-size
+            .ql-picker-item[data-value="#{$size}"]::before {
+            content: "#{$sizeNumber}";
+            font-size: #{$size};
+        }
+    }
+
+    $fonts: "SF Pro Text" "sf-pro-text";
+
+    @each $font, $fontName in $fonts {
+        .ql-snow
+            .ql-picker.ql-font
+            .ql-picker-label[data-value="#{$fontName}"]::before,
+        .ql-snow
+            .ql-picker.ql-font
+            .ql-picker-item[data-value="#{$fontName}"]::before {
+            content: "#{$font}";
+            font-family: $font;
+        }
+        .ql-font-#{$fontName} {
+            font-family: $font;
+        }
+    }
+}

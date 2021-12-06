@@ -1,0 +1,18 @@
+{
+    "title": "System Administration",
+    "message": "Only for system administrators and staff",
+    "phone": "Phone number",
+    "otp": "OTP Code",
+    "error-message": {
+        "invalid-phone-number": "Invalid phone number!",
+        "wrong-otp": "Wrong OTP, please try again!",
+        "permission": "You do not have permission to access this page!"
+    },
+    "success-message": {
+        "login": "Login successful!"
+    },
+    "action": {
+        "login": "Login",
+        "otp": "Enter OTP"
+    }
+}

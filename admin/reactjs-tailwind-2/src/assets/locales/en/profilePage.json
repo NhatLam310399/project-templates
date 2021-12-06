@@ -1,0 +1,22 @@
+{
+    "dashboard": "Dashboard",
+    "name_breadcrumb": "Personal information",
+    "title": "General Information",
+    "name": "First and last name",
+    "address": "Address",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "date": "Date of birth",
+    "email": "Email",
+    "phone": "Phone number",
+    "info_total": "Total number of matches",
+    "info_ratio": "Competition Win Rate",
+    "info_number_football": "Number of football matches",
+    "info_number_badminton": "Number of badminton matches",
+    "info_number_tennis": "Number of tennis matches",
+    "info_number_table_tennis": "Number of table tennis matches",
+    "info_number_basketball": "Number of basketball games",
+    "info_number_volleyball": "Volleyball Matches",
+    "title_submit": "Save information"
+}

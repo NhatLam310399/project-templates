@@ -1,0 +1,80 @@
+@layer utilities {
+  .container {
+    @apply max-w-screen-phone  phone:max-w-screen-laptop laptop:max-w-screen-desktop desktop:max-w-screen-desktop w-full px-1 desktop:px-0;
+  }
+
+  .one-line-ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .prevent-highlight {
+    user-select: none; /* Non-prefixed version, currently */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+  }
+
+  .paragraph-with-1-line {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+  }
+
+  .paragraph-with-2-line {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+  }
+
+  .paragraph-with-3-line {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+  }
+
+  .prevent-drag {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
+
+  .filter-image-to-white {
+    filter: brightness(0) invert(1);
+  }
+
+  .filter-image-to-black {
+    filter: brightness(0) invert(0);
+  }
+
+  .pretty-scroll {
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background-color: $white-color;
+    }
+
+    &::-webkit-scrollbar {
+      width: 7px;
+      background-color: $white-color;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: $white-color;
+    }
+  }
+}

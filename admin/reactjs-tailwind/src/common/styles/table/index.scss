@@ -1,0 +1,74 @@
+.custom-table {
+  &__container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    table {
+      table-layout: auto;
+      @apply text-sm;
+      line-height: 1.2;
+      text-align: left;
+      width: 100%;
+    }
+
+    thead {
+      &::after {
+        content: "";
+        display: table-row;
+        height: 10px;
+      }
+    }
+
+    th {
+      font-weight: bold;
+      padding: 20px;
+      vertical-align: top;
+      white-space: nowrap;
+      @apply bg-primary text-md;
+      color: white;
+
+      & + th {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        text-align: right;
+        min-width: 100px;
+        white-space: nowrap;
+        margin-right: 0;
+        margin-left: auto;
+      }
+    }
+
+    td {
+      vertical-align: middle;
+      padding: 20px;
+      font-weight: 500;
+
+      &:last-child {
+        margin-right: 0;
+        margin-left: auto;
+      }
+
+      & + td {
+        padding-left: 0;
+      }
+    }
+
+    tr:nth-child(even) {
+      @apply bg-tertiary;
+    }
+  }
+}
+
+.pagination-wrap {
+  .MuiPaginationItem-page {
+    @apply text-primary bg-tertiary;
+    font-weight: medium;
+    line-height: 1;
+    &.Mui-selected {
+      @apply bg-primary;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+export type IControllerTabType =
+  | "MENU"
+  | "UPLOAD"
+  | "ADD_TEXT"
+  | "ADD_CLIPART"
+  | "ADD_QUICK_DESIGN"
+  | "PREMIUM_IMAGES"
+  | "COLOR"
+  | "TRANSFORM"
+  | "POSITION"
+  | "CROP"
+  | "WRITE_TEXT"
+  | "FONT"
+  | "OUTLINE"
+  | "SHADOW";
